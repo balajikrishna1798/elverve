@@ -1,0 +1,71 @@
+
+.details h3 ,  .details span , .career_title label , .details button , .details a {
+    font-family: Inter !important;
+}
+.details h2{
+    margin-right: 16px;
+}
+.main-title {
+    font-size: calc(14px + (28 - 14) * ((100vw - 300px) / (1600 - 300)));
+    font-family: Gustavo;
+}
+.details span {
+    font-size: 16px;
+    margin-left: 8px;
+    color: #363636;
+    font-weight: 500;
+}
+.color_blue{
+    color: #019ce8 !important;
+    font-size: 14px;
+    font-weight: bold;
+} 
+.details svg {
+    font-size: 24px;
+}
+.details h3{
+    font-size: calc(14px + (18 - 14) * ((100vw - 300px) / (1600 - 300)));
+    font-weight: 400;
+}
+.emp_details  {
+    font-weight: bold !important;
+    color: #202020 !important;
+}
+.responsible_section h3{
+    font-weight: normal !important;
+}
+.apply_now {
+    border: 1.4px solid #3A65FF;
+background: #3A65FF;
+    color: white;
+    font-weight: 600;
+    padding: 5px 10px 5px 10px;
+    margin: 30px 0;
+    border-radius: 2px;
+}
+.apply_now:hover{
+    background: #4e0fa5;
+    color: white !important; 
+}
+.color-black{
+color: #000000;
+text-decoration: none;
+font-size: 16px;
+cursor: pointer;
+width: fit-content;
+}
+.color-black:hover  {
+    color: #019ce8;
+}
+.color-black:hover span  {
+    color: #019ce8;
+}
+.emp_responsibilities {
+    font-weight: bold !important;
+}
+.wrap {
+    flex-wrap: wrap;
+}
+.view_link_previous{
+    text-decoration: none !important;
+}

@@ -1,0 +1,66 @@
+.digital_section_title h3{
+    font-family: gustavo-medium;
+    font-size: min(max(20px, calc(1.25rem + (38 - 20) * ((100vw - 320px) / (1400 - 320)))), 38px);
+   
+
+
+}
+.digital_section_title_subsections{
+    margin-top: 40px;
+}
+
+/* .digitalsection_imag , .digital_section_title_subsections, .digital_section_title {
+  
+} */
+
+.digital_section_title_subsections .digital_section_title_subsections_tilte{
+
+    font-family: gustavo-medium;
+    font-size: min(max(20px, calc(1.25rem + (38 - 20) * ((100vw - 320px) / (1400 - 320)))), 38px);
+}
+.mb-20{
+    margin-bottom: 30px;
+}
+
+.navbar_for_otherpage .navbar_section {
+position: relative;
+
+}
+.navbar_for_otherpage .navbar_section .navbar_section_navbar {
+ 
+    background: #fff !important;
+    
+    }
+
+    .navbar_for_otherpage .newNavebar{
+        position: fixed;
+        top: 0;
+        width: 100%;
+
+    }
+
+    .navbar_for_otherpage .nav-item.dropdown .nav-link  {
+
+        color: #000 !important;
+    }
+
+    .navbar_for_otherpage .nav_items a{
+        color: #000 !important;
+    }
+    .mb-50{
+margin-bottom: 40px;
+    }
+
+
+
+    @media screen and (max-width: 991px) {
+
+        .digitalsection_imag , .digital_section_title_subsections, .digital_section_title {
+            margin-top: 20px;
+        }
+       
+        
+
+        
+    }
+    

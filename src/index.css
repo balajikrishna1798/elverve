@@ -1,0 +1,178 @@
+@import 'bootstrap/dist/css/bootstrap.min.css';
+@import "slick-carousel/slick/slick.css";
+@import "slick-carousel/slick/slick-theme.css";
+@media (min-width: 1400px){
+  .container, .container-lg, .container-md, .container-sm, .container-xl, .container-xxl {
+    max-width: 1400px;
+}
+
+}
+
+/* fonts  */
+
+/* @font-face {
+    font-family: gustavo_blod;
+    src: url('./assets/fonts/Gustavo/Gustavo-Bold.otf');
+  }
+
+  @font-face {
+    font-family: gustavo_italic_blod;
+    src: url('./assets/fonts/Gustavo_Font/gustavo_bold_italic.ttf');
+  }
+  @font-face {
+    font-family: gustavo_regular;
+    src: url('./assets/fonts/Gustavo_Font/gustavo_regular.ttf');
+  }
+  @font-face {
+    font-family: gustavo_italic;
+    src: url('./assets/fonts/Gustavo_Font/gustavo_italic.ttf');
+  }
+  @font-face {
+    font-family: gustavo_thin;
+    src: url('./assets/fonts/Gustavo_Font/gustavo_thin.ttf');
+  } */
+
+  .bg-section{
+    padding: 50px 0;
+    background-image: url('./assets/images/specrum-bg.png');
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: bottom;
+}
+ 
+  @font-face {
+    font-family: gustavo;
+    src: url('./assets/fonts/Gustavo/Gustavo-Bold.otf');
+  }
+
+  @font-face {
+    font-family: gustavo-regular; 
+    src: url('./assets/fonts/Gustavo/Gustavo-Regular.otf');
+  }
+
+  @font-face {
+    font-family: gustavo-medium;
+    src: url('./assets/fonts/Gustavo/Gustavo-Medium.otf');
+  }
+
+
+  /* Common button */
+  .btn_shadow{
+    width: 292px;
+    margin: auto;
+    position: relative;
+}
+.shadow_1{
+    width: 292px;
+    height: 63px;
+    clip-path: polygon(10% 0, 100% 0, 90% 100%, 0 100%);
+    position: absolute;
+    top: 10px;
+    left: 5px;
+    background: #333;
+}
+  .polygon_btn_cont{
+
+    width: 292px;
+    height: 63px;
+    clip-path: polygon(10% 0, 100% 0, 90% 100%, 0 100%);
+    position: relative;
+    background: #333;
+    box-sizing: border-box;
+    margin: auto;
+   z-index: 3;
+
+}
+
+
+.polygon_btn{
+    width: 284px;
+    height: 57px;
+    top: 3px;
+    left: 4px;
+    position: absolute;
+    clip-path: polygon(10% 0, 100% 0, 90% 100%, 0 100%);
+    border: 1px solid #333 !important;
+    background: #fff !important;
+   
+    color: #333 !important;
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+    font-weight: 600;
+    border-radius: 0px 0px 0px 0px;
+    
+   
+}
+
+/* .polygon_btn:hover{
+    background: #333 !important;
+    color: #fff !important;
+} */
+
+
+.btn_shadow{
+  /* transition: 0.34s all ease; */
+  transition: top 0.4s ease-in-out;
+  }
+  .shadow_1{
+      transition: top 0.3s ease-in-out;
+  }
+  
+  .btn_shadow:hover .shadow_1{
+      top: 0px;
+      transition: top 0.3s ease-in-out;
+  
+  }
+
+
+  /****************************************** responsive ************************************************** */
+@media screen and (max-width :540px){
+  .btn_shadow {
+    width: 200px;
+}
+.hero_section_btn{
+  margin-top: 20px;
+}
+.shadow_1 {
+  width: 200px;
+  height: 50px;
+  top: 12px !important;
+  left: 14px;
+  
+}
+.polygon_btn_cont {
+  width: 210px;
+  height: 57px;
+}
+.polygon_btn {
+  width: 200px;
+  height: 50px;
+  top: 3px;
+  left: 4px;
+  font-size: 16px;
+
+}
+}
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.form-control:focus{
+  box-shadow: none !important;
+}
+.form-select:focus{
+  box-shadow: none !important;
+}
+.form-control, .form-select {
+  padding: 12.12px .75rem !important;
+}
+
+

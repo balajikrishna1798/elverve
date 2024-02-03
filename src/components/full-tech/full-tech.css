@@ -1,0 +1,25 @@
+.fulltech-title{
+    font-size: min(max(20px, calc(1.25rem + (38 - 20) * ((100vw - 320px) / (1440 - 320)))), 38px);
+    font-family: gustavo;
+}
+.fulltech-subtitle{
+    font-size: min(max(12px, calc(0.75rem + (18 - 12) * ((100vw - 320px) / (1440 - 320)))), 18px);
+    font-family: 'Inter', sans-serif;
+}
+.tech-list span{
+    font-size: min(max(20px, calc(1.25rem + (46 - 20) * ((100vw - 320px) / (1440 - 320)))), 46px);
+    font-family: gustavo;
+    color: #D9D9D9;
+    list-style-type: none;
+}
+.tech-list span:hover{
+    color: #3a65ff;
+    cursor: pointer;
+}
+/************** Responsive *****************/
+@media screen and (max-width:769px) {
+    .fulltech{
+        padding-top: 0rem !important;
+        padding-bottom: 0rem !important; 
+    }
+}

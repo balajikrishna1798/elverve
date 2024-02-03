@@ -1,0 +1,13 @@
+
+p{
+  font-family: Inter;
+  font-size: 500;
+  /* font-size: min(max(22px, calc(1.375rem + (38 - 22) * ((100vw - 320px) / (1400 - 320)))), 38px); */
+}
+
+
+@media screen and (max-width:1200px) {
+  .item-name{
+      font-size: 14px !important;
+       }
+}

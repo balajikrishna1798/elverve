@@ -1,0 +1,23 @@
+.entertprice_section_title h3{
+    font-family: gustavo-medium;
+    font-size: min(max(20px, calc(1.25rem + (38 - 20) * ((100vw - 320px) / (1400 - 320)))), 38px);
+}
+ .entertprice_section_card, .entertprice_section_img , .entertprice_section_cards{
+    margin-top: 50px;
+}
+.entertprice_section_card {
+    margin-bottom: 50px;
+}
+
+
+@media screen and (max-width:991px){
+
+    .entertprice_section_title, .entertprice_section_card, .entertprice_section_img , .entertprice_section_cards{
+        margin-top: 20px;
+    }
+   
+}
+
+.new_card_enter .list_card{
+    margin-bottom: 0 !important;
+} 

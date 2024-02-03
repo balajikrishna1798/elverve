@@ -1,0 +1,28 @@
+.api_intergration_section_title h3{
+    font-family: gustavo-medium;
+    font-size: min(max(20px, calc(1.25rem + (38 - 20) * ((100vw - 320px) / (1400 - 320)))), 38px);
+}
+
+.api_intergration_section_img{
+    margin: 40px auto;
+}
+.api_intergration_cards{
+    margin-bottom: 50px;
+}
+
+@media screen and (max-width:991px){
+
+    .api_intergration_section_title {
+        margin-top: 25px;
+    }
+    .api_intergration_section_img{
+        margin: 20px auto;
+    }
+    .api_intergration_cards{
+        margin-bottom: 20px;
+
+    }
+
+
+
+}

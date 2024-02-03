@@ -1,0 +1,31 @@
+.main_title_analytic{
+    font-size: calc(14px + (28 - 14) * ((100vw - 300px) / (1600 - 300))) !important;
+    font-family: Gustavo !important;
+}
+.new_list_card .list_card {
+    height: 375px !important;
+}
+.new_list_card h3{
+    font-weight: 700 !important;
+
+}
+.tech_new_card{
+    height: 400px !important;
+}
+
+
+@media screen and (max-width:991px) {
+
+  .tech_new_card{
+    height: 100% !important;
+}  
+
+.new_list_card .list_card {
+    height: 100% !important;
+}
+}
+@media screen and (max-width:1399px) and (min-width: 991px) {
+.business-intelligence .new_list_card .list_card{
+    height: 410px !important;
+}
+}

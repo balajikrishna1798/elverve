@@ -1,0 +1,52 @@
+{
+	"info": {
+		"_postman_id": "a23da7f1-9a1b-45b7-9321-bdf16a814af6",
+		"name": "ContactUs",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "22876996"
+	},
+	"item": [
+		{
+			"name": "New Request",
+			"request": {
+				"method": "POST",
+				"header": [],
+				"body": {
+					"mode": "formdata",
+					"formdata": [
+						{
+							"key": "name",
+							"value": "Hussain",
+							"type": "text"
+						},
+						{
+							"key": "email",
+							"value": "hussaindeen.s@technogenesis.in",
+							"type": "text"
+						},
+						{
+							"key": "mobile",
+							"value": "8608784549",
+							"type": "text"
+						},
+						{
+							"key": "message",
+							"value": "Hi this is test mail",
+							"type": "text"
+						}
+					]
+				},
+				"url": {
+					"raw": "{{host}}contactus/create",
+					"host": [
+						"{{host}}contactus"
+					],
+					"path": [
+						"create"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

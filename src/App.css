@@ -1,0 +1,137 @@
+@media screen and (max-width:1400px) {
+    .card_margin, .new_card_enter{
+        margin-bottom: 24px  !important;
+    }
+    
+}
+
+
+.mt-60{
+    margin-top: 60px;
+}
+
+.main-title{
+    font-family: gustavo-medium !important;
+    font-size: min(max(20px, calc(1.25rem + (38 - 20) * ((100vw - 320px) / (1400 - 320)))), 38px) !important;
+}
+
+.main-content{
+    font-family: Inter, 'sans-serif';
+    font-size: min(max(14px, calc(0.875rem + (18 - 14) * ((100vw - 320px) / (1400 - 320)))), 18px);
+    color: #666666;
+}
+.f18{
+    font-size: 18px;
+}
+.mt-15{
+    margin-top: 15px;
+}
+.mt-50{
+    margin-top: 50px;
+}
+.mt-30{
+    margin-top: 30px;
+}
+.mb-30{
+    margin-bottom: 30px;
+}
+.underline{
+    width: 100px;
+    height: 4px;
+  background-color: blue;
+  }
+.about_content {
+    font-family: 'Inter';
+}
+.card_height_set .simple_card  {
+    height: 216px !important;
+}
+h3.main-title{
+    font-size: 24px;
+    font-weight: 700;
+    font-family: 'Inter';  
+}
+.px-200{
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.analytics-card{
+    border: 2px solid #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 1px 3px 15px 2px rgb(216 216 216 / 26%);
+    padding: 20px;
+    min-height: 330px;
+}
+.datacard_height_set .simple_card {
+    height:176px !important;
+}
+.mt-75{
+    margin-top: 75px;
+}
+.mb-75{
+    margin-bottom: 75px;
+}
+.expertise_section  .card-style-1 {
+    height: 84px !important;
+}
+.cognitive p{
+    font-family: Inter, 'sans-serif';
+    font-size: min(max(14px, calc(0.875rem + (18 - 14) * ((100vw - 320px) / (1400 - 320)))), 18px);
+    color: #666666;
+    margin-top: 20px;
+}
+
+
+.m-16{
+    margin-top: 16px;
+}
+
+@media screen and (max-width:1200px) {
+    .expertise_section  .card-style-1 , .testing_section .card-style-1 {
+        height: 60px !important;
+    }
+    
+}
+@media screen and (max-width:700px) {
+ .main-title{    
+font-size: 14px;
+ }
+ .datascience_image{
+    width: 80% !important;
+ }
+
+
+}
+
+@media screen and (min-width: 991px){
+    .pr-content{
+        padding-right: 100px;
+    }
+}
+@media screen and (max-width:767px) {
+    .datacard_height_set .simple_card  ,  .card_height_set .simple_card{
+        height: auto !important;
+    }
+}
+@media (max-width: 599px){
+.mt-75{
+    margin-top: 35px !important;
+
+}
+.mb-75{
+    margin-bottom: 35px !important;
+}
+.mt-60{
+    margin-top: 10px !important;
+}
+}
+@media (max-width: 1367px){
+.sharepoint .simple_card{
+    height: 210px !important;
+}
+}
+@media (max-width: 767px){
+    .sharepoint .simple_card{
+        height: unset !important;
+    }
+    }

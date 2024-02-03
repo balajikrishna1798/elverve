@@ -1,0 +1,117 @@
+.spectrum-title{
+    font-size: min(max(20px, calc(1.25rem + (38 - 20) * ((100vw - 320px) / (1440 - 320)))), 38px);
+    font-family: gustavo;
+    margin-bottom: 0;
+}
+.spectrum-sub-title{
+    font-size: min(max(16px, calc(1rem + (30 - 16) * ((100vw - 320px) / (1440 - 320)))), 30px);
+    font-family: gustavo;
+    margin-bottom: 70px;
+}
+.spectrum-card{
+    padding: 26px 50px;
+    box-shadow: 3px 8px 15px #eeeeee;
+    border: none;
+    border-radius: 20px;
+    position: relative;
+}
+.batch-icon{
+    position: absolute;
+    left: 45%;
+    top: -115px;
+}
+.star-img{
+    position: absolute;
+    left: 35%;
+    width: 46px;
+    bottom: 35%;
+    animation: rotation 2s infinite linear;
+}
+.spectrum-card .card{
+    margin: 20px 0;
+}
+.card-item{
+    padding-left: 0;
+}
+.card-item .card-title{
+    font-size: min(max(14px, calc(0.875rem + (28 - 14) * ((100vw - 320px) / (1440 - 320)))), 28px);
+    font-family: gustavo-medium;
+    margin-bottom: 0;
+}
+.card-item .card-text{
+    font-size: min(max(12px, calc(0.75rem + (18 - 12) * ((100vw - 320px) / (1440 - 320)))), 18px);
+    font-family: 'Inter', sans-serif;
+    padding-top: 12px;
+    color: 666666;
+}
+.spect-img{
+    width: 50px;
+    height: 50px;
+}
+.batch-img{
+    width: 150px;
+}
+.vector-img{
+    position: absolute;
+    top: -162px;
+    right: 63px;
+}
+/****************** Responsive ******************* */
+@media screen and (max-width: 1367px) {
+    .vector-img{
+        right: -21px;
+        top: -145px;
+        width: 100%;
+   }
+    .spectrum-sub-title{
+        margin-bottom: 30px;
+   }
+}
+@media screen and (max-width:1100px) {
+    .batch-icon{
+        top: -63px !important;
+   }
+    .batch-img{
+        width: 40% !important;
+   }
+    .star-img{
+        width: 10% !important;
+        bottom: 37% !important;
+        left: 15% !important;
+   }
+    .vector-img{
+        top: -84px !important;
+        right: 126px !important;
+        width: 73% !important;
+   }
+}
+@media screen and (max-width:992px) {
+    .vector-img{
+        display: none;
+   }
+    .batch-icon{
+        display: none;
+   }
+}
+@media screen and (max-width:800px) {
+    .spectrum-card{
+        padding: 20px !important;
+   }
+    .bg-section{
+        padding: 30px 0 !important;
+   }
+}
+@media screen and (max-width:500px) {
+    .spectrum-card .card{
+        margin: 8px 0 !important;
+   }
+}
+/****************** Animation******************* */
+@keyframes rotation {
+    from {
+        transform: rotate(0deg);
+   }
+    to {
+        transform: rotate(359deg);
+   }
+}

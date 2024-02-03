@@ -1,0 +1,59 @@
+.job-card{
+    padding: 20px;
+    border: 2px solid #f5f5f5;
+    border-radius: 8px;
+    box-shadow: 1px 3px 15px 2px rgb(216 216 216 / 26%);
+}
+.job-title{
+    color: #131313;
+    font-size: min(max(16px, calc(1rem + ((1vw - 3.2px) * 0.75))), 28px);
+    font-family: 'Gustavo';
+    font-weight: 700;
+}
+.d-flex p span{
+    color: #131313;
+    font-size: min(max(14px, calc(0.875rem + ((1vw - 3.2px) * 0.25))), 18px);
+    font-family: 'Inter';
+    font-weight: 500;
+    margin-left: 12px;
+    position: relative;
+    top: 3px;
+}
+.description{
+    color: #666666;
+    font-size: min(max(14px, calc(0.875rem + ((1vw - 3.2px) * 0.25))), 18px);
+    font-family: 'Inter';
+    font-weight: 500;  
+}
+.view_link{
+    color: #5259FF;
+    font-size: 16px;
+    font-family: 'Inter';
+    font-weight: bold;
+    text-decoration: underline;
+    cursor: pointer;   
+}
+.ml-30{
+    margin-left: 30px;
+}
+.job-d-flex{
+    display: flex;
+}
+@media (max-width: 489px){
+    .job-d-flex{
+        display: unset !important;
+        margin-bottom: 15px !important;
+    }
+    .job-d-flex p{
+        margin-left: 0px !important;
+        margin-bottom: 3px !important;
+    }
+    .job-d-flex img{
+        width: 20px;
+        height: 20px;
+    }
+    .job-d-flex span{
+        margin-left: 7px !important;
+        top: 2px !important;
+    }
+}

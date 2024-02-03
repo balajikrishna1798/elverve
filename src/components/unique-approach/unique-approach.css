@@ -1,0 +1,22 @@
+h5.unique-title{
+    font-size: 16px;
+    margin-top: 10px;
+    font-weight: 700;
+    font-family: 'Inter';
+}
+.approach-items{
+    margin-bottom: 20px;
+}
+
+
+@media screen and (max-width:1400px) {
+    .approach-items img{
+        height: 60px;
+        width: 60px;
+    }
+    .approach-items:nth-child(4) img{
+        height: 50px;
+    width: 50px;
+    } 
+    
+}

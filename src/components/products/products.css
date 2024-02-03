@@ -1,0 +1,215 @@
+.product-card{
+    background-color: #131313;
+    padding: 50px 30px;
+    border-bottom-left-radius: 0;
+    border-bottom-right-radius: 0;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+}
+.product-title{
+    color: #fff;
+    font-size: min(max(20px, calc(1.25rem + (38 - 20) * ((100vw - 320px) / (1440 - 320)))), 38px);
+    font-family: gustavo;
+}
+.product-subtitle{
+    color: #fff;
+    font-size: min(max(12px, calc(0.75rem + (18 - 12) * ((100vw - 320px) / (1440 - 320)))), 18px);
+    font-family: 'Inter', sans-serif;
+}
+.product-list{
+   padding: 0 20px;
+}
+.product-list p{
+    font-size: min(max(16px, calc(1rem + (28 - 16) * ((100vw - 320px) / (1440 - 320)))), 28px);
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    list-style-type: none;
+    color: #D2D2D2;
+    padding: 18px;
+    border-bottom: 2px solid #262626;
+    margin: 0;
+}
+.foot-title{
+    font-size: min(max(20px, calc(1.25rem + (38 - 20) * ((100vw - 320px) / (1440 - 320)))), 38px);
+    font-family: gustavo;
+    color: #fff;
+    padding: 0 20px;
+}
+.color-change{
+    background: #131313 !important;
+}
+.polygon_btn.bg-change{
+    background: #3A65FF !important;
+    color: #fff !important;
+}
+.polygon_btn.bg-change:hover{
+    color: #3A65FF !important;
+    background: #fff !important;
+}
+.pb-4.bg-card{
+       margin-bottom: 50px;
+       background-image: url('./../../assets/images/prod-bg.png');
+       background-size: cover;
+       background-position: bottom;
+       background-repeat: no-repeat;
+       padding-bottom: 225px !important;
+       padding-top: 50px;
+}
+/* .fade-img .slick-slide img{
+    margin: 0 auto !important;
+    height: 883px;
+    width: 537px;
+    border-radius: 20px;
+} */
+#myProgress {
+    width: 100%;
+    background-color: #262626;
+}
+#myBar {
+    width: 0%;
+    height: 2px;
+    background-color: #3A65FF;
+}
+.tech_text{
+    position: relative;
+}
+.--active {
+    color: #3A65FF !important;
+}
+.product-list li {
+    color: #d2d2d2;
+    font-family: Inter,sans-serif;
+    font-size: min(max(14px, calc(1rem + (28 - 14) * ((100vw - 320px) / (1440 - 320)))), 28px);
+    font-weight: 400;
+    list-style-type: none;
+    padding: 20px;
+    border-bottom: 2px solid #262626;
+    cursor: pointer;
+}
+.panel{
+position: relative;
+}
+.panel.active{
+    font-weight: 500;
+    color: #fff;
+}
+.panel.active::after{
+content: '';
+position: absolute;
+width: 0%;
+height: 2px;
+background: #3A65FF;
+left: 0;
+bottom: 0;
+animation: newfade 7s  ;
+} 
+.imag_box{
+   display: none;
+}
+.imag_box.active{
+    display: block;
+}
+.imag_height{
+
+    height: 883px;
+    width: 537px;
+    object-fit: cover;
+    border-radius: 20px;
+    object-fit: cover;
+}
+
+
+#products .polygon_btn_cont{
+    background: none !important;
+
+}
+.imag_box img{
+    object-fit: cover !important;
+    margin: auto;
+}
+/* ***********************************responsive ******************************* */
+
+@media screen and (max-width:1367px) {
+   
+    .imag_box img{
+        width: 480px !important;
+        height: 883px !important;
+    }
+
+
+}
+
+
+@media screen and (max-width:1201px) {
+    .imag_height{
+        width: 410px !important;
+        height: 883px !important;
+    }
+    .imag_box img{
+        width: 410px !important;
+        height: 883px !important;
+    }
+}
+
+@media screen and (max-width:992px) {
+    .imag_height{
+        width: 410px !important;
+        height: 480px !important;
+    }
+    .imag_box img{
+        width: 410px !important;
+        height: 480px !important;
+        margin: auto;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    .md-d-none{
+        display: none;
+    }
+    .product-card .pt-5{
+        padding-top: 20px !important;
+    }
+    .product-list{
+        padding: 0 !important;
+    }
+    .fade-img{
+        padding-top: 30px !important;
+    }
+    .pb-4.pb-4.bg-card{
+        padding-bottom: 100px !important;
+    }
+    .sm-d-none{
+        display: none !important;
+    }
+}
+
+@media screen and (max-width: 500px) {
+    .product-card .pt-5{
+        padding-top: 12px !important;
+    }
+    
+  
+}
+
+/************************* Animations*********************** */
+@keyframes newfade {
+
+    100%{
+        width: 100%;
+    }
+
+}
+
+.product-card {
+  
+   
+    background-color: #131313 !important;
+    border-bottom-left-radius: 0 !important;
+    border-bottom-right-radius: 0 !important;
+    border-top-left-radius: 20px !important;
+    border-top-right-radius: 20px !important;
+    padding: 50px 30px !important;
+    margin-bottom: 0 !important;
+    box-shadow: none !important;
+}
